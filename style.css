@@ -1,0 +1,118 @@
+/* #2d325c */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  box-sizing: border-box;
+}
+header {
+  padding: 10rem;
+  background-color: #800080;
+  background-image: linear-gradient(to left, #73008c, #800080);
+}
+
+.main-profile {
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-100px);
+  border-radius: 2rem;
+  padding: 2rem;
+  background-color: #faf6f6;
+  box-shadow: 3px 3px 2px rgb(236, 234, 234), -3px -3px 2px rgb(236, 234, 234);
+  box-sizing: border-box;
+}
+
+.main-profile .imageDiv {
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  align-items: center;
+  transform: translateY(-150px);
+}
+
+.imageDiv img {
+  transform: translateX(130px);
+  width: 50%;
+  border-radius: 50%;
+}
+
+.deatils {
+  margin-top: -10rem;
+}
+
+.deatils h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(61, 61, 61);
+}
+
+.specialist {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(96, 96, 96);
+}
+
+.bio {
+  margin-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.bio p {
+  text-align: justify;
+  color: rgb(60, 60, 60);
+}
+
+fieldset {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+legend {
+  text-align: center;
+}
+.work {
+  margin-top: 2rem;
+}
+.education h2,
+.work h2 {
+  text-align: center;
+}
+
+.education p,
+.work p {
+  text-align: center;
+}
+.contact {
+  max-width: 250px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  box-sizing: border-box;
+}
+.contact a {
+  text-decoration: none;
+}
+
+.contact img {
+  border-radius: 50%;
+}
+
+.contact h2 {
+  margin-top: 1rem;
+}

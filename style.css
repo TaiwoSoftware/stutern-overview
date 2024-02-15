@@ -116,3 +116,33 @@ legend {
 .contact h2 {
   margin-top: 1rem;
 }
+
+@media (max-width: 480px) {
+  .imageDiv img {
+    transform: translateX(85px);
+  }
+
+  .contact h2 {
+    text-align: center;
+  }
+
+  .contact-link {
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 410px) {
+  .imageDiv {
+    transform: translateY(-100px);
+  }
+
+  .imageDiv img {
+    transform: translateX(80px);
+  }
+}
+
+@media (max-width: 390px) {
+  .imageDiv img {
+    transform: translateY(-60px) translateX(80px);
+  }
+}
